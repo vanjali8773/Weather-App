@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#weatherResult {
+    margin-top: 25px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+}
+
+button {
+    padding: 12px 18px;
+
+    margin-left: 5px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #3498db;
+
+    color: white;
+
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.weather-app {
+    background: white;
+    padding: 30px;
+    width: 350px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+/* Weather Themes */
+
+body.sunny {
+    background: linear-gradient(135deg, #f6d365, #fda085);
+}
+
+body.cloudy {
+    background: linear-gradient(135deg, #bdc3c7, #2c3e50);
+}
+
+body.rainy {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+body.stormy {
+    background: linear-gradient(135deg, #434343, #000000);
+}
+
+body.snowy {
+    background: linear-gradient(135deg, #e6e9f0, #eef1f5);
+}
